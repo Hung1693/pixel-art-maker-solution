@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #192824;;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.986);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square{
+    border: 0.1px solid black;
+}
+
+.colorPicker {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.divCurrent{
+    display: flex;
+    align-items: center;
+}
+
+.currentBox{
+    border: 0.5px solid black ;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+p {
+  margin: calc(50vh - 40px) auto 0 auto;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.logo-1 {
+    color: #fff;
+    text-shadow:
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.restartButton{
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.customColor{
+    display: flex;
+   justify-content: center;
+}
+
+h4{
+     text-shadow:
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(45deg, #1b0cea, #d31919);
+}
+
+input {
+    border-radius: 10px;
+    margin-top: 14px;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to bottom, #cc00cc 0%, #00cc66 100%);
+}
+
+
+.filename{
+    display: block;
+    width: 100px;
+    margin: 10px 10px 0 0;
+}
